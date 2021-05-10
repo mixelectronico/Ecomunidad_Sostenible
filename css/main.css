@@ -1,1 +1,66 @@
-/* Inserta tu codigo aqui */
+@media only screen and (min-width: 960px) {
+    .navbar .navbar-nav .nav-item .nav-link {
+        padding: 0 0.5em;
+    }
+    .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+        border-right: 2px solid #000000;
+    }
+}
+
+#top-logo{
+    width: 150px;
+    height: auto;
+}
+.automargin{
+    margin: auto;
+}
+
+.project-pic{
+    max-width: 100%;
+    height: auto;
+}
+
+.profile-pic{
+    border-radius: 150px;
+    max-width: 100%;
+    height: auto;
+}
+
+.soc-net{
+    width: 30px;
+    height: auto;
+    margin: 3px 3px 6px 3px;
+}
+
+.gray-bg-img{
+    background-image: url(img/fondo2.jpg);
+    /*background-repeat: repeat;*/
+}
+
+#arrow-l{
+    width: 30px;
+    height: 31px;
+    margin-top: auto;
+    margin-right: 0;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+.w-25{
+    width: 25%;
+}
+
+.table{
+    width: 250px;
+    border: 1px solid silver;
+    padding: 5px 10px;
+    height: 200px;
+    margin: 0;
+}
+
+.bottom-icons{
+    margin-left: 50px;
+    margin-right: 0;
+    width: 40px;
+    height: auto;
+}
