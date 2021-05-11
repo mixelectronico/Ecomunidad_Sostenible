@@ -15,9 +15,25 @@
     margin: auto;
 }
 
-.project-pic{
+#bg-metodologia{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    min-height: 50px;
+}
+
+.pos-abs{
+    position: absolute;
+}
+
+.autoSize{
     max-width: 100%;
-    height: auto;
+    max-height: auto;
+}
+
+@media (max-width: 576px){
+    #executive{
+        display: none;
+    }
 }
 
 .profile-pic{
@@ -33,18 +49,20 @@
 }
 
 .gray-bg-img{
-    background-image: url(img/fondo2.jpg);
-    /*background-repeat: repeat;*/
+    background-image: url(../img/fondo2.jpg);
 }
 
-#arrow-l{
-    width: 30px;
-    height: 31px;
-    margin-top: auto;
-    margin-right: 0;
-    margin-bottom: auto;
-    margin-left: auto;
+.arrows{
+    text-align: center;
+    vertical-align: middle;
 }
+
+@media (max-width: 1000px) {
+    .arrows{
+        display: none;
+    }
+}
+
 
 .w-25{
     width: 25%;
